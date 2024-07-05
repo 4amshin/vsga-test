@@ -86,7 +86,7 @@
                 <!--Klien Kami-->
                 <li class="sidebar-item {{ Request::is('klienKami*') ? 'active' : '' }}">
                     <a href="{{ route('klienKami') }}" class='sidebar-link'>
-                        <i class="bi bi-grid-fill"></i>
+                        <i class="bi bi-people-fill"></i>
                         <span>Klien Kami</span>
                     </a>
                 </li>
@@ -102,8 +102,8 @@
                     <!--Login-->
                     <ul class="submenu ">
                         <!--Sign In-->
-                        <li class="submenu-item {{ Request::is('penduduk*') ? 'active' : '' }}">
-                            <a href="" class="submenu-link">Sign In</a>
+                        <li class="submenu-item {{ Request::is('signIn*') ? 'active' : '' }}">
+                            <a href="{{ route('signIn') }}" class="submenu-link">Sign In</a>
                         </li>
 
                         <!--Sign Out-->

@@ -68,3 +68,8 @@ Route::get('/gallery', function () {
 Route::get('/klienKami', function () {
     return view('sidebar-menu.klien-kami');
 })->name('klienKami');
+
+/*-------------SIGN IN--------------*/
+Route::get('/signIn', function () {
+    return view('sidebar-menu.sign-in');
+})->name('signIn');

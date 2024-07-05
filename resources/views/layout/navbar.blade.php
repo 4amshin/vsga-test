@@ -3,8 +3,9 @@
     <div class="header-top">
         <div class="container justify-content-center">
             <div class="logo">
-                <a href="index.html"><img src="./assets/compiled/svg/logo.svg" alt="Logo"></a>
+                <img src="{{ asset('assets/compiled/svg/logo-text.svg') }}" height="500" alt="Logo">
             </div>
+            {{-- <h1>PALOPO VESPA CLUB</h1> --}}
         </div>
 
         <!-- Burger button responsive -->
