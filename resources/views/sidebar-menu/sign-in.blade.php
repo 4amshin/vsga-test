@@ -13,39 +13,25 @@
         <!--Email-->
         <div class="form-group position-relative has-icon-left mb-4">
             <!--Input-->
-            <input type="text" name="email" class="form-control form-control-xl @error('email') is-invalid @enderror"
+            <input type="text" name="email" class="form-control form-control-xl"
                 placeholder="Email">
 
             <!--Icon-->
             <div class="form-control-icon">
                 <i class="bi bi-envelope"></i>
             </div>
-
-            <!--Pesan Eror-->
-            @error('email')
-                <div class="invalid-feedback">
-                    {{ $message }}
-                </div>
-            @enderror
         </div>
 
         <!--Password-->
         <div class="form-group position-relative has-icon-left mb-4">
             <!--Input-->
             <input type="password" name="password"
-                class="form-control form-control-xl @error('password') is-invalid @enderror" placeholder="Password">
+                class="form-control form-control-xl " placeholder="Password">
 
             <!--Icon-->
             <div class="form-control-icon">
                 <i class="bi bi-shield-lock"></i>
             </div>
-
-            <!--Pesan Eror-->
-            @error('password')
-                <div class="invalid-feedback">
-                    {{ $message }}
-                </div>
-            @enderror
         </div>
 
         <!--Tombol Login-->

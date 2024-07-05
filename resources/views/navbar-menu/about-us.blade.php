@@ -2,15 +2,16 @@
 
 @section('title', 'About Us')
 
-{{-- @section('header', 'About Us') --}}
-
 @section('content')
     <div class="row">
         <div class="col-md-12 col-12">
             <div class="card">
+                <!--Title-->
                 <div class="card-header">
                     <h5>About Us</h5>
                 </div>
+
+                <!--Deskripsi-->
                 <div class="card-body">
                     Klub Motor PVC (Palopo Vespa Club) didirikan pada tahun 1980 oleh sekelompok pecinta motor yang memiliki
                     visi dan misi untuk menciptakan komunitas yang solid dan bersemangat dalam dunia otomotif. Bermula dari

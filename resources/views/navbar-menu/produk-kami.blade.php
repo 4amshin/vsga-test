@@ -6,12 +6,12 @@
     <div class="row">
         <div class="col-md-10">
             <div class="card">
-                <!--JUDUL-->
+                <!--Title-->
                 <div class="card-header">
                     <h5 class="card-title">Produk/Jasa Kami</h5>
                 </div>
 
-                <!--BODY-->
+                <!--Body-->
                 <div class="card-body">
                     <!--List Judul Produk-->
                     <ul class="nav nav-tabs" id="myTab" role="tablist">

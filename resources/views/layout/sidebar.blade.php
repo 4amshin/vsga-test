@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <!--Sidebar-->
+        <!--Sidebar Menu-->
         <div class="sidebar-menu">
             <ul class="menu">
                 <li class="sidebar-title">Menu</li>

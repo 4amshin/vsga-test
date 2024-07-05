@@ -4,10 +4,12 @@
 
 @section('content')
     <div class="card">
+        <!--Title-->
         <div class="card-header">
             <h4 class="card-title">Profile Kami</h4>
         </div>
 
+        <!--Profil Model Form-->
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
@@ -36,6 +38,7 @@
         </div>
     </div>
 
+    <!--Detail Club-->
     <div class="row">
         <div class="col-md-12 col-12">
             <div class="card">

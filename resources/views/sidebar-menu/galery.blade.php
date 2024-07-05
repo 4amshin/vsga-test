@@ -6,10 +6,14 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
+                <!--Title-->
                 <div class="card-header">
                     <h5 class="card-title">Galeri</h5>
                 </div>
+
+                <!--Body-->
                 <div class="card-body">
+                    <!--Row 1-->
                     <div class="row gallery" data-bs-toggle="modal" data-bs-target="#galleryModal">
                         @for ($i = 1; $i <= 4; $i++)
                             <div class="col-6 col-sm-6 col-lg-3 mt-2 mt-md-0 mb-md-0 mb-2">
@@ -21,6 +25,7 @@
                         @endfor
                     </div>
 
+                    <!--Row 2-->
                     <div class="row mt-2 mt-md-4 gallery" data-bs-toggle="modal" data-bs-target="#galleryModal">
                         @for ($i = 5; $i <= 8; $i++)
                             <div class="col-6 col-sm-6 col-lg-3 mt-2 mt-md-0 mb-md-0 mb-2">

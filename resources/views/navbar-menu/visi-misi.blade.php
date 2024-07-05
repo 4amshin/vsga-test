@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-12 col-md-11">
             <div class="card">
-                <!--JUDUL-->
+                <!--Title-->
                 <div class="card-header">
                     <h4>Visi & Misi</h4>
                 </div>

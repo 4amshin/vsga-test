@@ -4,6 +4,7 @@
 
 @section('content')
     <div class="row">
+        <!--Artikel 1-->
         <div class="col-md-6 col-12">
             <div class="card">
                 <div class="card-header">
@@ -19,6 +20,7 @@
             </div>
         </div>
 
+        <!--Artikel 2-->
         <div class="col-md-6 col-12">
             <div class="card">
                 <div class="card-header">
@@ -33,6 +35,7 @@
             </div>
         </div>
 
+        <!--Artikel 3-->
         <div class="col-md-6 col-12">
             <div class="card">
                 <div class="card-header">
@@ -48,6 +51,7 @@
             </div>
         </div>
 
+        <!--Artikel 4-->
         <div class="col-md-6 col-12">
             <div class="card">
                 <div class="card-header">

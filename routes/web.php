@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 /*-------------HOME--------------*/
 
 Route::get('/', function () {
-    return view('home');
+    return view('sidebar-menu.home');
 })->name('home');
 
 /*-----------------------------MENU NAVBAR-------------------------------*/
